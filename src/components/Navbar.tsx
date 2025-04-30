@@ -52,10 +52,9 @@ export const Navbar = () => {
             <a
               rel="noreferrer noopener"
               href="/"
-              className="ml-2 font-bold text-xl flex"
+              className="ml-2 font-bold text-3xl flex"
             >
               <LogoIcon />
-              ShadcnUI/React
             </a>
           </NavigationMenuItem>
 
