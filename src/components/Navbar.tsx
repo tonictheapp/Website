@@ -128,11 +128,11 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://apps.apple.com/app/idYOUR_APP_ID"
               target="_blank"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
+              className={`border ${buttonVariants({ variant: "default" })}`}
             >
-              Login
+              Download the App
             </a>
 
             <ModeToggle />
