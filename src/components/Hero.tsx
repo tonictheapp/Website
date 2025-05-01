@@ -1,10 +1,9 @@
 "use client";
 import { useEffect, useRef } from "react";
 import { animate } from "motion";
-import { Button } from "./ui/button";
-import { buttonVariants } from "./ui/button";
+// import { Button } from "./ui/button";
+// import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   const headingRef = useRef<HTMLDivElement>(null);
@@ -64,21 +63,25 @@ export const Hero = () => {
 
         <div
           ref={buttonsRef}
-          className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0"
+          className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center"
         >
-          <Button className="w-full md:w-1/3">Get Started</Button>
-
-          <a
-            rel="noreferrer noopener"
-            href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-            target="_blank"
-            className={`w-full md:w-1/3 inline-flex items-center justify-center ${buttonVariants({
-              variant: "outline",
-            })}`}
-          >
-            GitHub Repository
-            <GitHubLogoIcon className="ml-2 w-5 h-5" />
-          </a>
+        <a
+          href="https://apps.apple.com/app/idYOUR_APP_ID"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative h-12 w-fit"
+        >
+          <img
+            src="src/assets/appstorelight.svg"
+            alt="Download on the App Store"
+            className="block dark:hidden h-12"
+          />
+          <img
+            src="src/assets/appstoredark.svg"
+            alt="Download on the App Store"
+            className="hidden dark:block h-12"
+          />
+        </a>
         </div>
       </div>
 
