@@ -97,9 +97,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Every Post Reviewed</CardTitle>
+            <CardTitle>Guaranteed Posts</CardTitle>
             <CardDescription className="text-md mt-2">
-              You approve all content before it’s shared—nothing goes live without your okay.
+              We work with our creators to ensure you recieve promotional material.
             </CardDescription>
           </div>
         </CardHeader>

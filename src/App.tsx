@@ -2,7 +2,7 @@
 // import { Features } from "./components/Features";
 // import { Newsletter } from "./components/Newsletter";
 // import { Pricing } from "./components/Pricing";
-// import { Services } from "./components/Services";
+import { Services } from "./components/Services";
 // import { Sponsors } from "./components/Sponsors";
 // import { Testimonials } from "./components/Testimonials";
 import { About } from "./components/About";
@@ -21,10 +21,10 @@ function App() {
       <Navbar />
       <Hero />
       {/* <Sponsors /> */}
-      <About />
+      {/* <About /> */}
       <HowItWorks />
-      {/* <Features />
-      <Services /> */}
+      {/* <Features /> */}
+      <Services />
       {/* <Testimonials /> */}
       <Team />
       <Cta />
