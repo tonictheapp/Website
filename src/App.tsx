@@ -5,7 +5,7 @@
 import { Services } from "./components/Services";
 // import { Sponsors } from "./components/Sponsors";
 // import { Testimonials } from "./components/Testimonials";
-import { About } from "./components/About";
+// import { About } from "./components/About";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { HowItWorks } from "./components/HowItWorks";
