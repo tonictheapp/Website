@@ -72,12 +72,12 @@ export const Hero = () => {
           className="relative h-12 w-fit"
         >
           <img
-            src="src/assets/appstorelight.png"
+            src="/appstorelight.png"
             alt="Download on the App Store"
             className="block dark:hidden h-12"
           />
           <img
-            src="src/assets/appstoredark.png"
+            src="/appstoredark.png"
             alt="Download on the App Store"
             className="hidden dark:block h-12"
           />
